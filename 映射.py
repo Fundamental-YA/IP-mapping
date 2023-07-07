@@ -34,10 +34,10 @@ class ForwardThread(threading.Thread):
         self.client_socket.close()
         self.remote_socket.close()
 # 设置本地IP及端口
-local_ip = '192.168.1.100'
-local_port = 8080
+local_ip = '127.0.0.1'
+local_port = 19132
 # 设置远程IP及端口
-remote_ip = '外网IP'
-remote_port = 8080
+remote_ip = '233.101.222.86'
+remote_port = 30310
 # 启动端口映射
 port_forwarding(local_ip, local_port, remote_ip, remote_port)
