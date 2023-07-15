@@ -33,10 +33,10 @@ class ForwardThread(threading.Thread):
                 break
         self.client_socket.close()
         self.remote_socket.close()
-# 设置本地IP及端口
+# 设置本地IP及端口（后面按要求改）
 local_ip = '127.0.0.1'
 local_port = 19132
-# 设置远程IP及端口
+# 设置远程IP及端口（后面按要求改）
 remote_ip = '233.101.222.86'
 remote_port = 30310
 # 启动端口映射
